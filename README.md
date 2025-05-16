@@ -10,7 +10,7 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 ## 🔗 Live Site
 
 👉 [View Live](https://fernandopizarrodw.github.io/fylo-landing-page/)  
-👉 [View on GitHub](https://github.com/fernandopizarrodw/fylo-landing-page)
+👉 [View on GitHub](https://github.com/fernandopizarrodw/responsive-fylo-page-)
 
 ## 🛠️ Built With
 
