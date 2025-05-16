@@ -86,6 +86,7 @@ ul {
 
 .features__link a:hover {
     opacity: 0.7;
+    color: var(--Bright-Blue);
 }
 
 .attribution {
@@ -122,6 +123,7 @@ ul {
 }
 
 
+
 /* ------------4.2 Hero------------------------ */
 
 
@@ -154,7 +156,7 @@ ul {
 
 .hero__input,
 .hero__button {
-    padding: 0.5rem 0;
+    padding: 1rem 0;
 }
 
 input::placeholder {
@@ -170,6 +172,8 @@ input::placeholder {
     border: none;
     border-radius: 5px;
     font-size: 0.8rem;
+    cursor: pointer;
+
 }
 
 
@@ -274,7 +278,7 @@ input::placeholder {
 
 .cta__input,
 .cta__button {
-    padding: 0.5rem 0;
+    padding: 1rem 0;
 }
 
 .cta__button {
@@ -283,6 +287,8 @@ input::placeholder {
     border: none;
     border-radius: 5px;
     font-size: 0.7rem;
+    cursor: pointer;
+
 }
 
 
@@ -328,6 +334,11 @@ ul {
     font-size: 0.9rem;
     gap: 1rem;
 }
+li:hover{
+    color: hsl(224, 93%, 70%);
+    transition: background-color 0.5s ease;
+
+}
 
 .footer__socials {
     display: flex;
@@ -345,6 +356,14 @@ i {
     margin-bottom: 2rem;
 
 }
+i:hover{
+    color: hsl(224, 93%, 70%);
+    transition: background-color 0.5s ease;
+}
+.hero__button:hover,
+.cta__button:hover {
+    background-color: hsl(224, 93%, 70%);
+    transition: background-color 0.5s ease;}
 
 /* 06 MEDIA QUERIES--------------------------------- */
 @media (min-width:1024px) {
